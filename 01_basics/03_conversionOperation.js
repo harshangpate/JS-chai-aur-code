@@ -35,7 +35,7 @@ let negValue = -value
 
 console.log(negValue);
 
-let str1 = "hello"
+let str1 = "Hello"
 let str2 = " Harshang"
 let str3 = str1 + str2
 
