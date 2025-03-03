@@ -27,3 +27,24 @@ let stringNumber = String(some_num)
 console.log(stringNumber); // we get 33(number) as a output but it is converted in string 
 
 console.log(typeof (stringNumber)); // op:- string as the number was converted into string
+
+// ******************** Operations ***************************** //
+
+let value = 3
+let negValue = -value
+
+console.log(negValue);
+
+let str1 = "hello"
+let str2 = " Harshang"
+let str3 = str1 + str2
+
+console.log(str3);
+
+console.log (1 + 2); // op:- 3
+console.log("1" + 2); // op:- 12
+console.log(1+ "2"); // op:- 12
+console.log("1"+2+2); // op:- 122
+console.log ((1+2)+"2"); // op:- 32
+
+console.log(true); //if we add 
