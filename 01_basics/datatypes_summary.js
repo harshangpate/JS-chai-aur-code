@@ -46,3 +46,33 @@ const myFunction = function(){
 }                                               // Function / Object Function
 
 console.log(typeof heros);                      // used to find the datatype of variavbles declared above
+
+
+
+// ************************* memory ******************************** // 
+
+/*
+1. Stack memory :- mainly used in primitive datatypes.  (Here we are given a copy of that value, if we make changes in that value then the original value was not affected that means we are changing the value in the copy one)
+2. Heap memory :- mainly used in non-primitive datatype. (Here we are directly given that value so if we make changes in that value it can affect to all)
+*/
+
+// stack example
+let Name = "Harshang"
+
+let anotherName = Name
+console.log(anotherName); // op:- Harshang as we have given the value of Name to anotherName.
+
+anotherName = "Patel Harshang"
+console.log(anotherName); // op:- Patel Harshang as we have made chane in copy so the previous value/ variable was not affected.
+
+let userOne = {
+    email: "Harshnag@gmail.com",
+    upi: "8780976700@hdfc"
+}
+
+let userTwo = userOne; // here the variable was created but we get the direct reference of the userOne.
+
+userTwo.email = "user@gmail.com"
+
+console.log(userOne.email); // here the value of both the datatype are changed. original value:- Harshang@gmail.com op:- user@gmail.com
+console.log(userTwo.email);
