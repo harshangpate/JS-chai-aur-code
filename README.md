@@ -4,7 +4,7 @@ This is a code repo for javascript series from chai aur code yt channel
 
 
 [Javascript in 1 shot in Hindi | part 1](https://youtu.be/sscX432bMZo?si=f7uFBv-Sq0lYtdpt)
-- Start Date: 5 Mar, 2025
+- Start Date: 3 Mar, 2025
 
 #### Content:
 01. Basics
