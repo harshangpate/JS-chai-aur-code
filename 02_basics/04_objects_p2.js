@@ -45,10 +45,41 @@ const users = [
 ]
 
 users[1].email
-console.log(facebookUser);
+// console.log(facebookUser);
 
-console.log(Object.keys(facebookUser));     //to print all the keys
-console.log(Object.values(facebookUser));   // to print all the values 
-console.log(Object.entries(facebookUser));  //comperatively used less
+// console.log(Object.keys(facebookUser));     //to print all the keys
+// console.log(Object.values(facebookUser));   // to print all the values 
+// console.log(Object.entries(facebookUser));  //comperatively used less
 
-console.log(facebookUser.hasOwnProperty('isLoggedIn')) // to see if this key is present in our object
+// console.log(facebookUser.hasOwnProperty('isLoggedIn')) // to see if this key is present in our object
+
+
+
+
+
+
+
+
+
+
+
+//++++++++++++++++++++ destructuring of objects ++++++++++++++++++++//
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+// course.courseInstructor
+
+const {courseInstructor : instructor} = course
+console.log(courseInstructor);
+console.log(instructor);
+
+// JSON API format
+
+// {
+//     "name": "Happy",
+//     "coursename": "js in Hindi",
+//     "price": "free"
+// }
