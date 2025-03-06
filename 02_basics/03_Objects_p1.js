@@ -25,6 +25,7 @@ JsUser.email = "Harshang@chatgpt.com"
 
 // console.log(JsUser);
 
+
 // function in object
 
 JsUser.greeting = function(){
