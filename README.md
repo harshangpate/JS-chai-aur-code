@@ -10,4 +10,4 @@ This repository contains the code for the JavaScript series from the Chai Aur Co
 01. Basics
 02. Basics
 03. Basics
-04. Conditional Statements
+04. Control Flow Statements
